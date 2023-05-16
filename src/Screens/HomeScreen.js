@@ -1,10 +1,14 @@
 import React from 'react'
-import { Text, View } from 'native-base'
+import { Box } from 'native-base'
+import HomeSearch from '../Components/HomeSearch';
+import HomeProduct from '../Components/HomeProduct';
 
-export const HomeScreen = () => {
+export const HomeScreen=()=> {
     return (
-        <View>
-            <Text >HomeScreen</Text>
-        </View>
+        <Box flex={1} bg={"amber.100"}>
+            <HomeSearch />
+            <HomeProduct />
+        </Box>
     )
 }
+ 

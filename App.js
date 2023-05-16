@@ -1,12 +1,15 @@
 
  
-import { NativeBaseProvider,Box ,Text} from 'native-base';
-import { LoginScreen } from './src/Screens/LoginScreen';
+import { NativeBaseProvider } from 'native-base';
+import { SingleProductScreen } from './src/Screens/SingleProductScreen';
+ 
+ 
+ 
 
 export default function App() {
   return (
     <NativeBaseProvider>
-      <LoginScreen />
+     <SingleProductScreen />
     </NativeBaseProvider>
   );
 }
